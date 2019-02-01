@@ -1,0 +1,37 @@
+# folders that should be ignored on all levels
+.idea/
+build/
+logs/
+out/
+
+# eclipse ide settings
+.classpath
+.project
+.settings
+/*/.settings
+/*/.classpath
+/*/.checkstyle
+/*/.project
+/.metadata
+/*/LOG_DIR_TEST_IS_UNDEFINED/*
+
+
+# intellij ide settings
+*.iml
+*.iws
+*.ipr
+*/out/
+
+# gradle/build specific files
+/*/bin/
+/*/build/
+/.gradle/
+/*/.gradle/
+/
+
+# javadoc documentation
+/*/doc/
+/doc/
+
+# testng reports
+/*/test-output/
